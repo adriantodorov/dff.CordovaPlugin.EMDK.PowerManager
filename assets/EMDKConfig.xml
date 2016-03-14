@@ -11,5 +11,16 @@
            <parm name="emdk_name" value="DffProfileManager"/>
            <parm name="ResetAction" value="0" />
         </characteristic>
+        <characteristic type="KeyMappingMgr" version="4.4">
+      <parm name="emdk_name" value="StarAsW"/>
+      <parm name="Action" value="1"/>
+      <characteristic type="KeyMapping">
+        <parm name="KeyIdentifier" value="STAR"/>
+        <characteristic type="BaseTable">
+          <parm name="BaseBehavior" value="2"/>
+          <parm name="BaseKeyCode" value="51"/>
+        </characteristic>
+      </characteristic>
+    </characteristic>
     </characteristic>
 </wap-provisioningdoc>
