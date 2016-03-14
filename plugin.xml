@@ -2,12 +2,12 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" 
 	xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.dff.cordova.plugins.emdk.powermanager"
-    version="0.0.2">
+    version="0.0.3">
 
-    <name>EMDKPowerManager</name>
-    <description>EMDKPowerManager Plugin</description>
-    <author>dff solutions</author>
-    <keywords>phonegap,cordova,EMDK,PowerManager,dff</keywords>
+    <name>Key Mapping Manager</name>
+    <description>EMDK Key Mapping Manager</description>
+    <author>Adrian Todorov</author>
+    <keywords>phonegap,cordova,EMDK</keywords>
 
     <js-module src="www/emdkpowermanager.js" name="emdkpowermanager">
         <clobbers target="EMDKPowerManager" />
