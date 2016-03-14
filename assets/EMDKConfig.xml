@@ -11,16 +11,48 @@
            <parm name="emdk_name" value="DffProfileManager"/>
            <parm name="ResetAction" value="0" />
         </characteristic>
-        <characteristic type="KeyMappingMgr" version="4.4">
-      <parm name="emdk_name" value="StarAsW"/>
+    <characteristic type="KeyMappingMgr" version="4.4">
+      <parm name="emdk_name" value="StarAsTab"/>
       <parm name="Action" value="1"/>
       <characteristic type="KeyMapping">
         <parm name="KeyIdentifier" value="STAR"/>
         <characteristic type="BaseTable">
           <parm name="BaseBehavior" value="2"/>
-          <parm name="BaseKeyCode" value="51"/>
+          <parm name="BaseKeyCode" value="61"/>
         </characteristic>
       </characteristic>
     </characteristic>
+    <characteristic type="KeyMappingMgr" version="4.4">
+      <parm name="emdk_name" value="GreenAsAlt"/>
+      <parm name="Action" value="1"/>
+      <characteristic type="KeyMapping">
+        <parm name="KeyIdentifier" value="GREEN"/>
+        <characteristic type="BaseTable">
+          <parm name="BaseBehavior" value="2"/>
+          <parm name="BaseKeyCode" value="10030"/>
+        </characteristic>
+      </characteristic>
+    </characteristic>
+    <characteristic type="KeyMappingMgr" version="4.4">
+      <parm name="emdk_name" value="RedAsCtrl"/>
+      <parm name="Action" value="1"/>
+      <characteristic type="KeyMapping">
+        <parm name="KeyIdentifier" value="RED"/>
+        <characteristic type="BaseTable">
+          <parm name="BaseBehavior" value="2"/>
+          <parm name="BaseKeyCode" value="10031"/>
+        </characteristic>
+      </characteristic>
+    </characteristic>
+    <characteristic type="KeyMappingMgr" version="4.4">
+      <parm name="emdk_name" value="GripAsEnter"/>
+      <parm name="Action" value="1"/>
+      <characteristic type="KeyMapping">
+        <parm name="KeyIdentifier" value="GRIP_TRIGGER"/>
+        <characteristic type="BaseTable">
+          <parm name="BaseBehavior" value="2"/>
+          <parm name="BaseKeyCode" value="66"/>
+        </characteristic>
+      </characteristic>
     </characteristic>
 </wap-provisioningdoc>
