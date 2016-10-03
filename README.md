@@ -14,7 +14,7 @@ Install required platform(s) e.g.:
 
 ### Cordova Plugin
 
-    cordova plugin add https://github.com/dff-solutions/dff.CordovaPlugin.EMDK.PowerManager.git
+    cordova plugin add https://github.com/adriantodorov/dff.CordovaPlugin.EMDK.PowerManager.git
 
 ## Usage
 Please see [doc](/doc/) for usage of the javascript interface.
